@@ -1,28 +1,6 @@
-# Core
-streamlit==1.32.2
-pandas==2.1.4
-numpy==1.26.3
-
-# PDF Processing
-pymupdf==1.23.8
-pdfplumber==0.11.6
-pdfminer.six==20240315  # Version corrigée (20250327 n'existe pas)
-
-# DOCX Processing
-python-docx==0.8.11
-docx2txt==0.8
-
-# NLP Processing
-spacy==3.7.4
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
-nltk==3.8.1
-scikit-learn==1.3.2
-
-# Image Processing (si vraiment nécessaire)
-Pillow==10.3.0
-opencv-python-headless==4.7.0.72  # Version headless pour Streamlit Sharing
-
-# Utilitaires
-python-dateutil==2.8.2
-python-magic==0.4.27
-tqdm==4.66.1
+streamlit
+pymupdf
+docx2txt
+spacy
+pandas
+numpy
